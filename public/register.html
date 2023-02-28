@@ -24,25 +24,43 @@
           <div class="container">
             <div class="left">
               <!-- <form action=""> -->
-                <label for="FullName">Full name</label>
-                <input type="text" name="fullName" id="FullName" required />
+              <label for="FullName">Full name</label>
+              <input type="text" name="fullName" id="FullName" required />
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required/>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
 
-                <label for="phone">Phone nmber</label>
-                <input type="tel" name="phone" id="phone" pattern="0(5|6|7)[0-9]{8}" required/>
-              
+              <label for="phone">Phone nmber</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                pattern="0(5|6|7)[0-9]{8}"
+                required
+              />
             </div>
 
             <div class="right">
               <label for="discord">Your Discord ID</label>
-              <input type="text" name="discord" id="discord" required />
+              <input type="text" name="discord" id="discord" />
 
               <label>Are you OMC member?</label>
               <div class="yn">
-              <div class="dH3"><input type="radio" name="YN" id="Yeah" value="yes" checked/><label for="Yeah">Yes</label></div>
-              <div class="dH3"><input type="radio" name="YN" id="nah" value="no"/><label for="nah">No</label ></div>
+                <div class="dH3">
+                  <input
+                    type="radio"
+                    name="YN"
+                    id="Yeah"
+                    value="yes"
+                    checked
+                  /><label for="Yeah">Yes</label>
+                </div>
+                <div class="dH3">
+                  <input type="radio" name="YN" id="nah" value="no" /><label
+                    for="nah"
+                    >No</label
+                  >
+                </div>
               </div>
 
               <label for="study">Study Field</label>
@@ -55,14 +73,13 @@
             <textarea name="description" id="desc" required></textarea>
           </div>
           <button id="btn" type="submit">Submit</button>
-         </form>
+        </form>
 
-
-         <div id="msg"></div>
+        <div id="msg"></div>
       </div>
       <aside>
-        <h1>AI  EVENT</h1>
-        <img src="res/Robot.png" alt="Robot"/>
+        <h1>AI EVENT</h1>
+        <img src="res/Robot.png" alt="Robot" />
       </aside>
     </div>
   </body>
